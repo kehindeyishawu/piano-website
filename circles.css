@@ -20,6 +20,16 @@ canvas {
 	border-color: yellow;
 }
 
+::-webkit-input-placeholder {
+	color: yellow;
+	/* Chromium-specific color */
+}
+
+::placeholder {
+	color: yellow;
+	/* Standard color */
+}
+
 body, html {
  height: 100%;
  margin: 0;
